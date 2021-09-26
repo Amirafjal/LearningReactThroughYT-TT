@@ -24,12 +24,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const name = "amir afjal"
+// const name = "amir afjal"
+
+// ReactDOM.render(
+//   <>
+//     <h1>this is {name}</h1>
+//     <p>my lucky number is {2 + 3}</p>
+//   </>,
+//   document.getElementById('root')
+// );
+
+
+// templete literals in react start here =>
+const fname = 'amir';
+const lname = "afjal";
 
 ReactDOM.render(
   <>
-    <h1>this is {name}</h1>
-    <p>my lucky number is {2 + 3}</p>
+    <h1>{`My first name is ${fname} and my last name is ${lname}`}</h1>
+    <p>{`${fname} ${lname} lucky number is ${2 + 3}`}</p>
   </>,
   document.getElementById('root')
 );
