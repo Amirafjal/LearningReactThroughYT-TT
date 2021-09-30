@@ -21,8 +21,8 @@
 
 // expression in react starts here =>
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
 // const name = "amir afjal"
 
@@ -36,15 +36,35 @@ import ReactDOM from 'react-dom';
 
 
 // templete literals in react start here =>
-const fname = 'amir';
-const lname = "afjal";
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// const fname = 'amir';
+// const lname = "afjal";
 
-ReactDOM.render(
-  <>
-    <h1>{`My first name is ${fname} and my last name is ${lname}`}</h1>
-    <p>{`${fname} ${lname} lucky number is ${2 + 3}`}</p>
-  </>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <>
+//     <h1>{`My first name is ${fname} and my last name is ${lname}`}</h1>
+//     <p>{`${fname} ${lname} lucky number is ${2 + 3}`}</p>
+//   </>,
+//   document.getElementById('root')
+// );
 
+
+// video 13 challenge no.2 starts here
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+
+// const myName = "amir afjal";
+// const currDate = new Date().toLocaleDateString();
+// const currTime = new Date().toLocaleTimeString();
+
+// ReactDOM.render(
+//   <>
+//     <h1>{`my name is ${myName}`}</h1>
+//     <p>{`Current Date is ${currDate}`}</p>
+//     <p>{`Current Time is ${currTime}`}</p>
+//   </>,
+//   document.getElementById('root')
+// );
 
