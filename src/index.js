@@ -74,6 +74,28 @@
 
 
 // -----------------------------------
+// contentEditable starts here=>
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+
+// const fullName = "amir afjal";
+// const img1 = "https://picsum.photos/id/237/200/300";
+// const img2 = "https://picsum.photos/id/238/200/300";
+// const img3 = "https://picsum.photos/id/239/200/300";
+// const links = 'https://www.youtube.com/watch?v=OloAP8p1k1w&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ&index=14';
+
+// ReactDOM.render(
+//     <>
+//         <h1 contentEditable="true">My name is {fullName}</h1>
+//         <img src={img1} alt="img1" />
+//         <img src={img2} alt="img2" />
+//         <a href={links} target="_blank" >
+//             <img src={img3} alt="img3" />
+//         </a>
+//     </>,
+//     document.getElementById('root')
+// );
 
 
-
+// --------------------------------------
