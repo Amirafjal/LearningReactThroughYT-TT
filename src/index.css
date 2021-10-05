@@ -1,0 +1,19 @@
+#name{
+    font-family:sans-serif;
+    text-transform: capitalize;
+    text-align :center;
+    color:#88b888;
+}
+#image{
+    text-align:center;
+}
+#image > img{
+    width:300px;
+    height:400px;
+    box-shadow:0px 3px 13px;
+    transform:rotate(-2deg);
+    
+}
+#image> img:hover{
+    transform:rotate(2deg);
+}
