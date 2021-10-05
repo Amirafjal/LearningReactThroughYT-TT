@@ -101,25 +101,46 @@
 // --------------------------------------
 // using css in react=>
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
 
-const abc = "amir afjal"
-const img1 = "https://picsum.photos/id/237/200/300";
-const img2 = "https://picsum.photos/id/238/200/300";
-const img3 = "https://picsum.photos/id/239/200/300";
+// const abc = "amir afjal"
+// const img1 = "https://picsum.photos/id/237/200/300";
+// const img2 = "https://picsum.photos/id/238/200/300";
+// const img3 = "https://picsum.photos/id/239/200/300";
+
+// ReactDOM.render(
+//     <>
+//         <h1 id="name" contentEditable="true">My name is {abc} </h1>
+//         <div id="image">
+//             <img src={img1} alt="a" />
+//             <img src={img2} alt="b" />
+//             <img src={img3} alt="c" />
+//         </div>
+
+//     </>,
+//     document.getElementById("root")
+// );
+
+
+// -------------------------------------
+// React challenge 3 mini project 1 dynamically show mornig ,afternoon and night=>video 17-18=>
+
+
+import React from "react";
+import ReactDOM from 'react-dom';
+
 
 ReactDOM.render(
     <>
-        <h1 id="name" contentEditable="true">My name is {abc} </h1>
-        <div id="image">
-            <img src={img1} alt="a" />
-            <img src={img2} alt="b" />
-            <img src={img3} alt="c" />
-        </div>
+
+
 
     </>,
-    document.getElementById("root")
+    document.getElementById('root')
 );
+
+
+
 
