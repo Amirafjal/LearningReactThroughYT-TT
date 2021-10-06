@@ -126,17 +126,27 @@
 
 // -------------------------------------
 // React challenge 3 mini project 1 dynamically show mornig ,afternoon and night=>video 17-18=>
-
+// year ,month ,date ,hours =>
 
 import React from "react";
 import ReactDOM from 'react-dom';
+let greetings = "";
+
+let currTime = new Date();
+currTime = currTime.getHours();
+
+if (currTime >= 1 && currTime < 12) {
+    greetings = "Good Morning";
+} else if (currTime >= 12 && currTime < 19) {
+    greetings = "Good Afternoon";
+} else {
+    greetings = "Good Night";
+}
 
 
 ReactDOM.render(
     <>
-
-
-
+        <h1>Hello sir, {greetings}</h1>
     </>,
     document.getElementById('root')
 );
